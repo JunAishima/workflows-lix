@@ -10,7 +10,7 @@ import h5py
 import numpy as np
 from lixtools.atsas import gen_report
 from lixtools.hdf import h5sol_HPLC, h5sol_HT
-from prefect import flow, task, get_run_logger
+from prefect import flow, get_run_logger, task
 from py4xs.hdf import h5exp, h5xs
 
 
